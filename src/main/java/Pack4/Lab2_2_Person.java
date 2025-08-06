@@ -1,6 +1,6 @@
 package Pack4;
 
-public class Lab2_2_Person extends Account{
+public class Lab2_2_Person extends Lab2_1_Account{
 
 	String name;
 	float age;

@@ -1,11 +1,11 @@
 package Pack4;
 
-public class AccountMain {
+public class Lab2_1_AccountMain {
 
 	public static void main(String[] args) {
 
-		Person Smith = new Person();
-		Person Kathy = new Person();
+		Lab2_1_Person Smith = new Lab2_1_Person();
+		Lab2_1_Person Kathy = new Lab2_1_Person();
 
 		Smith.setBalance(2000);
 		Kathy.setBalance(3000);

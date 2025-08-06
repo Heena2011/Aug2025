@@ -1,10 +1,10 @@
 package Pack4;
 
-class Account {
+class Lab2_1_Account {
 
 	long accNum;
 	double balance;
-	Person accHolder;
+	Lab2_1_Person accHolder;
 
 	double depositeBalance = 0;
 	double withdrawbalance;
@@ -43,11 +43,11 @@ class Account {
 		this.accNum = accNum;
 	}
 
-	public Person getAccHolder() {
+	public Lab2_1_Person getAccHolder() {
 		return accHolder;
 	}
 
-	public void setAccHolder(Person accHolder) {
+	public void setAccHolder(Lab2_1_Person accHolder) {
 		this.accHolder = accHolder;
 	}
 
